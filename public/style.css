@@ -1,0 +1,76 @@
+td {
+  border: 2px solid #333;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  vertical-align: middle;
+  font-family: 'Comic Sans MS', cursive;
+  font-size: 70px;
+  cursor: pointer;
+}
+
+.spinner {
+  border: 0px!important;
+  font-size: 30px!important;
+}
+
+.table-header {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 1.4em;
+}
+
+table {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 20px;
+  /*position: absolute;
+  left: 50%;
+  margin-left: -150px;
+  top: 50%;
+  margin-top: -150px;*/
+}
+
+table tr:first-child td {
+  border-top: 0;
+}
+
+table tr:last-child td {
+  border-bottom: 0;
+}
+
+table tr td:first-child {
+  border-left: 0;
+}
+
+table tr td:last-child {
+  border-right: 0;
+}
+
+.winning-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .9);
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+}
+
+.restart-button {
+  font-size: 3rem;
+  cursor: pointer;
+  padding: .25em .5em
+}
+
+.restart-button:hover{
+  color: white;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid white;
+}
